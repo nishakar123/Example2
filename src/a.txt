@@ -2,3 +2,4 @@ The earlier style of routing is called convention-based routing and it has the b
 The information about what URI to use to call into a controller is kept in a completely different file  from the controller itself. A developer has to look at both the controller and the global route table in configuration to understand how to call into the controller.
 It forces you to encode action-specific information like parameter names in a global route table.
 An attribute-based approach solves all these problems by allowing you to configure how an action gets called right on the action itself. For most cases, this should improve usability and make simpler to build and maintain.
+Nishakar Subramanyam
